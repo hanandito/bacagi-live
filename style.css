@@ -64,6 +64,10 @@ body{
 .navbar-bacagi .logo{
   width: 130px;
 }
+.banners{
+  width: 100vw;
+  height: 100vh;
+}
 .banners .img-content{
   width: 100vw;
   height: 100vh;
@@ -83,4 +87,17 @@ body{
   top: 50%;
   transform: translate(-50%);
   left: 20%;
+}
+/* Background Colors */
+.bg-dark{
+  background-color: #22272e;
+}
+.bg-med-dark{
+  background-color: #253040;
+}
+.bg-yellow{
+  background-color: #ffad42;
+}
+.bg-med-light{
+  background-color: #cdd9e5;
 }
