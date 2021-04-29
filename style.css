@@ -1,0 +1,86 @@
+@font-face{
+  font-family: "Roboto Light";
+  src: url(Roboto-Light.ttf) format("truetype");
+}
+@font-face{
+  font-family: "TitilliumWeb Regular";
+  src: url(TitilliumWeb-Regular.ttf) format("truetype");
+}
+body{
+  font-family: "TitilliumWeb Regular";
+}
+.navbar{								
+  position: absolute;
+}
+.navbar-bacagi{
+  position: absolute;
+  top: 20px;
+  padding-top: 10px;
+  z-index: 4;
+}
+.navbar-bacagi > .row > .menu-wrap > ul{
+  text-align: right;
+}
+.navbar-bacagi > .row > .menu-wrap > ul > li, .navbar-bacagi > .row > .lang-bacagi > ul > li{
+  display: inline;
+  position: relative;
+  margin: 0 15px;
+  padding-bottom: 20px;
+}
+.navbar-bacagi > .row > .lang-bacagi > ul{
+  padding-left: 25px;
+}
+.navbar-bacagi > .row > .menu-wrap > ul > li > ul{
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  left: -63px;
+  top: 35px;
+  text-align: left;
+  list-style-type: none;
+  width: 180px;
+  height: auto;
+  background-color: #fff;
+  padding: 13px 20px;
+  transition: opacity 1s ease-in-out;
+  text-align: center;
+}
+.navbar-bacagi > .row > .menu-wrap > ul > li:hover ul{
+  display: block;
+  visibility: visible;
+  opacity: 1;
+} 
+.navbar-bacagi.home > .row > .menu-wrap > ul > li > a, .navbar-bacagi.home > .row > .lang-bacagi > ul > li > a{
+  color: #fff;
+}
+.navbar-bacagi.home > .row > .menu-wrap > ul > li > ul > li > a, .navbar-bacagi > .row > .menu-wrap > ul > li > ul > li > a{
+  font-size: 13px;
+}
+.navbar-bacagi ul li a{
+  color: #666666;
+  font-family: "Roboto Light";
+}
+.navbar-bacagi .logo{
+  width: 130px;
+}
+.banners .img-content{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.button-custom{
+  background-color: #149ac4;
+  padding: 5px 12px;
+  color: #fff;
+}
+.bg-top-home .content-wrapper{
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%);
+  left: 20%;
+}
