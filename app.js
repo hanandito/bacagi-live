@@ -1,6 +1,7 @@
   //  Favor
-  $('.carousel-homebanner').addClass('owl-carousel owl-theme').owlCarousel({
+  $('.carousel-point').addClass('owl-carousel owl-theme').owlCarousel({
     autoplay:false,
+    navText: ["<img src='chevron-left-square-08.png'>","<img src='chevron-right-square-08.png'>"],
     autoplayTimeout: 3000,
     responsive:{
      0: {
