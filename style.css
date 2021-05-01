@@ -176,3 +176,10 @@ body{
   height: 100%;
   object-fit: cover;
 }
+.carousel-point .owl-nav{
+  position: absolute;
+  top: 2rem;
+}
+.carousel-point .owl-nav .owl-prev, .carousel-point .owl-nav .owl-next{
+  margin: 0;
+}
