@@ -94,11 +94,66 @@ body{
   background-color: #253040;
 }
 .bg-yellow{
-  background-color: #ffad42;
+  background-color: #ffcb00;
 }
 .bg-med-light{
   background-color: #cdd9e5;
 }
+.text-gray{
+  color: #444;
+}
 .point-selling{
-  margin-top: -4.1rem;
+  margin-top: -3.8rem;
+  position: relative;
+  z-index: 5;
+}
+.point-selling .items{
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.34);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.34);
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.34);
+}
+.carousel-banner .img-content{
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: blur(1px);
+}
+.carousel-banner .wrapper{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.carousel-banner .wrapper .detail{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+  margin-left: 3rem;
+}
+.carousel-banner .wrapper .bg-layer-dark{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4); 
+  z-index: 2;
+}
+.carousel-banner .wrapper .img-object{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 3;
+  margin-right: 3rem;
+  max-width: 450px;
+}
+.point-selling .items .content-img{
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
