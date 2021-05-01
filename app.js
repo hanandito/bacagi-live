@@ -2,7 +2,8 @@
   $('.carousel-banner').addClass('owl-carousel owl-theme').owlCarousel({
     autoplay:false,
     navText: ["<img src='chevron-left-square-08.png'>","<img src='chevron-right-square-08.png'>"],
-    autoplayTimeout: 3000,
+    autoplayTimeout: 3500,
+    autoplay: true,
     responsive:{
      0: {
        items: 1,
@@ -16,7 +17,8 @@
      1000: {
        items: 1,
        dots: false,
-       nav: false
+       nav: false,
+       loop: true
      }
    }
  })
