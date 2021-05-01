@@ -12,6 +12,9 @@ body{
 .font-roboto{
   font-family: "Roboto Light";
 }
+.font-85{
+  font-size: 85px;
+}
 .navbar{								
   position: absolute;
 }
