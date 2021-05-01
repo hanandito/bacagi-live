@@ -169,7 +169,7 @@ body{
 }
 .carousel-point .img-header{
   width: 100%;
-  height: 110px;
+  height: 150px;
 }
 .carousel-point .img-header .content{
   max-width: 100%;
@@ -182,4 +182,7 @@ body{
 }
 .carousel-point .owl-nav .owl-prev, .carousel-point .owl-nav .owl-next{
   margin: 0;
+}
+.carousel-point .content-wrapper{
+  height: 300px;
 }
