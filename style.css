@@ -108,6 +108,9 @@ body{
 .text-gray{
   color: #444;
 }
+.text-yellow{
+  color: #ffcb00;
+}
 .point-selling{
   margin-top: -3.8rem;
   position: relative;
