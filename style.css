@@ -59,7 +59,7 @@ body{
   visibility: visible;
   opacity: 1;
 } 
-.navbar-bacagi.home > .row > .menu-wrap > ul > li > a, .navbar-bacagi.home > .row > .lang-bacagi > ul > li > a{
+.navbar-bacagi.home > .row > .menu-wrap > ul > li > a, .navbar-bacagi.home > .row > .lang-bacagi > ul > li > a,  .navbar-bacagi .menu-icon{
   color: #fff;
 }
 .navbar-bacagi.solid{
@@ -73,7 +73,7 @@ body{
 .navbar-bacagi.solid .logo {
   width: 100px;
 }
-.navbar-bacagi.solid > .row > .menu-wrap > ul > li > a, .navbar-bacagi.solid > .row > .lang-bacagi > ul > li > a{
+.navbar-bacagi.solid > .row > .menu-wrap > ul > li > a, .navbar-bacagi.solid > .row > .lang-bacagi > ul > li > a,  .navbar-bacagi.solid .menu-icon{
   color: #484a4a;
 }
 .navbar-bacagi.home > .row > .menu-wrap > ul > li > ul > li > a, .navbar-bacagi > .row > .menu-wrap > ul > li > ul > li > a{
