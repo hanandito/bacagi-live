@@ -250,8 +250,11 @@ body{
 @media screen and (max-width: 414px) {
   .menu-icon {
     position: absolute;
-    top: 20px;
+    top: 30px;
     right: 20px;
+  }
+  .navbar-bacagi.solid .menu-icon{
+    top: 20px;
   }
   .side-menu{
     background-color: #fff;
@@ -273,5 +276,8 @@ body{
   }
   .logo-mobile{
     width: 100px;
+  }
+  .navbar-bacagi.solid {
+    padding-bottom: 10px;
   }
 }
