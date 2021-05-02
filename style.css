@@ -196,7 +196,8 @@ body{
 .why-us{
   background-image: url(bg-testi.jpg);
   background-size: cover;
-  background-position: center
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .why-us .wrapper-circle{
   width: 120px;
