@@ -262,8 +262,16 @@ body{
     top: 0;
     transition: all .5s;
     z-index: 10;
+    padding: 1rem;
   }
   .side-menu.active{
     right: 0;
+  }
+  .side-menu ul{
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .logo-mobile{
+    width: 100px;
   }
 }
