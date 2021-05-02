@@ -115,4 +115,11 @@ $(document).ready(function() {
         $('.menu-icon').removeClass('scrolled');
     }
   });
+  // Side Menu on Mobile
+  $('.fa-bars').click(function() {
+    $('.side-menu').addClass("active");
+ })
+  $('.close-button').click(function() {
+    $('.side-menu').removeClass("active");
+ })
 });
