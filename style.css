@@ -193,3 +193,20 @@ body{
   padding: 5px;
   top: 6.8rem;
 }
+.why-us .wrapper-circle{
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  background: #ffcb00;
+  border-radius: 100px;
+  position: relative;
+}
+.why-us .wrapper-circle .img-icon{
+  width: 70px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
