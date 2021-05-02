@@ -106,12 +106,12 @@ $(document).ready(function() {
   $(window).scroll(function() {
     // checks if window is scrolled more than 500px, adds/removes solid class
     if($(this).scrollTop() > 70) {
-        $('.nav-arandra').addClass('solid');
-        $(".nav-arandra img").attr("src", 'http://okular.co.id/staging/arandra/wp-content/themes/arandra/images/logo-arandra-color.png');
+        $('.navbar-bacagi').addClass('solid');
+        $(".navbar-bacagi .logo").attr("src", 'logo.png');
         $('.menu-icon').addClass('scrolled');
     } else {
-        $('.nav-arandra').removeClass('solid');
-        $(".nav-arandra img").attr("src", 'http://okular.co.id/staging/arandra/wp-content/themes/arandra/images/logo-arandra.png');
+        $('.navbar-bacagi').removeClass('solid');
+        $(".navbar-bacagi .logo").attr("src", 'logo-white.png');
         $('.menu-icon').removeClass('scrolled');
     }
   });

@@ -19,10 +19,12 @@ body{
   position: absolute;
 }
 .navbar-bacagi{
-  position: absolute;
-  top: 20px;
-  padding-top: 10px;
-  z-index: 4;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  transition: all .3s;
 }
 .navbar-bacagi > .row > .menu-wrap > ul{
   text-align: right;
@@ -59,6 +61,17 @@ body{
 } 
 .navbar-bacagi.home > .row > .menu-wrap > ul > li > a, .navbar-bacagi.home > .row > .lang-bacagi > ul > li > a{
   color: #fff;
+}
+.navbar-bacagi.solid{
+  background-color: #fff;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+.navbar-bacagi.solid .logo {
+  width: 100px;
+}
+.navbar-bacagi.solid > .row > .menu-wrap > ul > li > a, .navbar-bacagi.solid > .row > .lang-bacagi > ul > li > a{
+  color: #484a4a;
 }
 .navbar-bacagi.home > .row > .menu-wrap > ul > li > ul > li > a, .navbar-bacagi > .row > .menu-wrap > ul > li > ul > li > a{
   font-size: 13px;
