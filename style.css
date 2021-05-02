@@ -247,3 +247,11 @@ body{
 .testimonials .carousel-testi .img-avatar{
   width: 122px !important;
 }
+@media screen and (max-width: 414px) {
+  .menu-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+}
