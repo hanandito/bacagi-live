@@ -99,6 +99,12 @@ body{
   padding: 5px 12px;
   color: #fff;
 }
+.button-yellow{
+  background-color: #ffcb00;
+  padding: 5px 12px;
+  color: darkblue;
+  border-bottom: 3px solid #253040;
+}
 .bg-top-home .content-wrapper{
   position: absolute;
   top: 50%;
