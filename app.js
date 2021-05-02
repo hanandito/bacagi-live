@@ -116,10 +116,10 @@ $(document).ready(function() {
     }
   });
   // Side Menu on Mobile
-  $('.fa-bars').click(function() {
+  $('.menu-icon').click(function() {
     $('.side-menu').addClass("active");
  })
-  $('.close-button').click(function() {
+  $('.close-menu-icon').click(function() {
     $('.side-menu').removeClass("active");
  })
 });
