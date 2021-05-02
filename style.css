@@ -114,6 +114,9 @@ body{
   transform: translate(-50%);
   left: 20%;
 }
+.carousel-banner .wrapper .brief{
+  width: 50%;
+}
 /* Background Colors */
 .bg-dark{
   background-color: #22272e;
@@ -279,5 +282,21 @@ body{
   }
   .navbar-bacagi.solid {
     padding-bottom: 10px;
+  }
+  .carousel-banner .wrapper .img-object {
+    top: 0;
+    right: 0;
+    max-width: 290px;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+  }
+  .carousel-banner .wrapper .detail {
+    top: auto;
+    z-index: 3;
+    bottom: 0;
+  }
+  .carousel-banner .wrapper .brief{
+    width: 90%;
   }
 }
