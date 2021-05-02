@@ -29,8 +29,10 @@
     responsive:{
      0: {
        items: 1,
-       dots: true,
-       nav: false,
+       dots: false,
+       nav: true,
+       stagePadding: 40,
+       margin: 10
      },
      600: {
        items: 1,
