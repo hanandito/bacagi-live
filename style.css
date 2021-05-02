@@ -333,4 +333,7 @@ body{
   .footer .details{
     text-align: left;
   }
+  .side-menu ul li{
+    margin-top: 20px;
+  }
 }
