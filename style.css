@@ -309,4 +309,7 @@ body{
     margin-bottom: 2rem;
     text-align: center;
   }
+  .title-detail-counter{
+    font-size: 1.2rem;
+  }
 }
