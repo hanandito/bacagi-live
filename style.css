@@ -299,4 +299,14 @@ body{
   .carousel-banner .wrapper .brief{
     width: 90%;
   }
+  .point-selling .items{
+    margin-bottom: 2rem;
+  }
+  .point-selling-details{
+    text-align: center;
+  }
+  .point-selling-details img{
+    margin-bottom: 2rem;
+    text-align: center;
+  }
 }
