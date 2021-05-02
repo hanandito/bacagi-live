@@ -210,3 +210,9 @@ body{
   transform: translate(-50%, -50%);
   margin: 0;
 }
+.why-us .wrapper-point{
+  margin-bottom: -10px;
+}
+.why-us .items{
+  border-bottom: 10px solid #ffcb00;
+}
